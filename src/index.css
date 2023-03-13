@@ -1,13 +1,44 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
+body {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("https://images.pexels.com/photos/315938/pexels-photo-315938.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header {
+  color: beige;
+  font-family: "Faster One", cursive;
+  font-size: xx-large;
+  margin-bottom: 2rem;
+}
+.card-container {
+  color: beige;
+  font-family: "Fasthand", cursive;
+  font-size: xx-large;
+}
+.car-card:hover {
+  border: solid black;
+  cursor: pointer;
+}
+.car-image{
+  transition: transform 0.5s;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.car-card:hover .car-image {
+  transform: scale(0.95);
+}
+.card-title {
+  color: black;
+}
+.car-body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  color: rgb(18, 9, 58);
+  font-size: 20px;
+  text-align: justify;
 }

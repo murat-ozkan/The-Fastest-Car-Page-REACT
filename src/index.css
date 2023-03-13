@@ -26,9 +26,8 @@ body {
   border: solid black;
   cursor: pointer;
 }
-.car-image{
+.car-image {
   transition: transform 0.5s;
-
 }
 .car-card:hover .car-image {
   transform: scale(0.95);
@@ -36,9 +35,14 @@ body {
 .card-title {
   color: black;
 }
-.car-body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+.car-body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(18, 9, 58);
   font-size: 20px;
   text-align: justify;
+}
+
+.modal-window {
+  max-width: 1000px;
+  margin: 1.75rem auto;
 }

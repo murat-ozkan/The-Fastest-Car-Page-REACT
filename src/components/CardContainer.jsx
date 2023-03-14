@@ -21,7 +21,7 @@ const CardContainer = () => {
           <Row className="d-flex justify-content-center align-items-center">
             {data
               .filter((car) =>
-                car.title.toLowerCase().includes(input.toLowerCase())
+                car.title.toLowerCase().includes(input.trim().toLowerCase())
               )
               .map((car, index) => (
                 <Col

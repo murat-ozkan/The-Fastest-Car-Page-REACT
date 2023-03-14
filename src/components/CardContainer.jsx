@@ -5,7 +5,6 @@ import CarCard from "./CarCard.jsx";
 
 const CardContainer = () => {
   const [input, setInput] = useState("");
-
   return (
     <>
       <Form.Control
@@ -13,7 +12,6 @@ const CardContainer = () => {
         type="search"
         placeholder="Search a car..."
         onChange={(e) => setInput(e.target.value)}
-        // value = {input}
       ></Form.Control>
       <div>
         <Container className="card-container d-flex justify-content-center align-items-center">

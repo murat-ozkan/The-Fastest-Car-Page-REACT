@@ -1,19 +1,21 @@
 import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
-import Sound from "react-sound";
-import carsound from "../helper/mixkit-car-engine-start-1566.wav";
+// import Sound from "react-sound";
+// import carsound from "../helper/mixkit-car-engine-start-1566.wav";
 
 const CarCard = ({ id, title, description, imageLink }) => {
   // const {id, title, description, imageLink} = props // diğer tür yakalama
+  // const [playStatus, setPlayStatus] = React.useState(Sound.status.STOPPED);
   const [show, setShow] = useState(true);
-  const [playStatus, setPlayStatus] = React.useState(Sound.status.STOPPED);
 
-  function handleImageClick() {
-    setPlayStatus(Sound.status.PLAYING);
-  }
+  // function handleImageClick() {
+  //   setPlayStatus(Sound.status.PLAYING);
+  // }
+
   const detail = () => {
     setShow(!show);
   };
+
   return (
     <Card
       onClick={detail}
@@ -23,7 +25,7 @@ const CarCard = ({ id, title, description, imageLink }) => {
       {show ? (
         <>
           <Card.Img
-            onClick={handleImageClick}
+            // onClick={handleImageClick}
             className="car-image"
             variant="top"
             src={imageLink}
@@ -32,7 +34,7 @@ const CarCard = ({ id, title, description, imageLink }) => {
       ) : (
         <>
           <Card.Body className="car-body"> {description}</Card.Body>
-          <Sound url={carsound} playStatus={playStatus} />
+          {/* <Sound url={carsound} playStatus={playStatus} /> */}
         </>
       )}
       <Card.Footer>

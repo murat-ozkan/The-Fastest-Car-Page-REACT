@@ -95,4 +95,37 @@ export const data = [
     imageLink:
       "https://cdn.motor1.com/images/mgl/0MkYW/s3/lamborghini-aventador-svj-coupe.webp",
   },
+  {
+    id: 13,
+    title: "Koenigsegg Jesko Absolut",
+    description:
+      "The Koenigsegg Jesko Absolut is a hypercar with a top speed of over 330 mph (531 km/h). It features a twin-turbocharged V8 engine that produces up to 1,600 horsepower.",
+    imageLink:
+      "https://cdn.motor1.com/images/mgl/BXXAQ4/s3/koenigsegg-jesko-absolut.webp",
+  },
+
+  {
+    id: 14,
+    title: "Pagani Huayra BC",
+    description:
+      "The Pagani Huayra BC is a hypercar with a top speed of 238 mph (383 km/h). It is powered by a twin-turbocharged V12 engine that produces 789 horsepower and 811 lb-ft of torque.",
+    imageLink:
+      "https://cdn.motor1.com/images/mgl/XkqKe/s3/pagani-huayra-bc-con-pacchetto-tempesta.webp",
+  },
+  {
+    id: 15,
+    title: "Ferrari LaFerrari Aperta",
+    description:
+      "The Ferrari LaFerrari Aperta is a hybrid hypercar with a top speed of over 217 mph (350 km/h). It features a hybrid powertrain that produces 949 horsepower and 663 lb-ft of torque.",
+    imageLink:
+      "https://cdn.motor1.com/images/mgl/PvZW4/s1/ferrari-laferrari-spider-first-official-photos.jpg",
+  },
+  {
+    id: 16,
+    title: "Porsche 911 GT2 RS",
+    description:
+      "The Porsche 911 GT2 RS is a sports car with a top speed of 211 mph (340 km/h). It is powered by a twin-turbocharged flat-six engine that produces 700 horsepower and 553 lb-ft of torque.",
+    imageLink:
+      "https://cdn.motor1.com/images/mgl/QeYQj8/s3/manhart-tr-900-porsche-911-gt2-rs.webp",
+  },
 ];

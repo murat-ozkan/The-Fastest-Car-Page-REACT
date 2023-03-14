@@ -5,16 +5,19 @@ import CarCard from "./CarCard.jsx";
 
 const CardContainer = () => {
   return (
-    <Container className="card-container">
-      <Row>
-        {data.map((car, index) => (
-          <Col key={index}>
-            <CarCard {...car} />
-          </Col>
-        ))}
-      </Row>
-    </Container>
+    <div>
+      <Container className="card-container d-flex justify-content-center align-items-center">
+        <Row className="d-flex justify-content-center align-items-center">
+          {data.map((car, index) => (
+            <Col key={index} className="d-flex justify-content-center align-items-center">
+              <CarCard {...car} />
+            </Col>
+          ))}
+        </Row>
+      </Container>
+    </div>
   );
 };
 
 export default CardContainer;
+

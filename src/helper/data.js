@@ -101,7 +101,7 @@ export const data = [
     description:
       "The Koenigsegg Jesko Absolut is a hypercar with a top speed of over 330 mph (531 km/h). It features a twin-turbocharged V8 engine that produces up to 1,600 horsepower.",
     imageLink:
-      "https://cdn.motor1.com/images/mgl/BXXAQ4/s3/koenigsegg-jesko-absolut.webp",
+      "https://cdn.motor1.com/images/mgl/nRkZ6/s3/koenigsegg-jesko-absolut.webp",
   },
 
   {

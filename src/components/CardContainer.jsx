@@ -5,7 +5,6 @@ import CarCard from "./CarCard.jsx";
 
 const CardContainer = () => {
   const [input, setInput] = useState("");
-  console.log(input);
 
   return (
     <>
